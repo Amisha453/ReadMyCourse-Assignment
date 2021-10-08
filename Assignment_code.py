@@ -17,9 +17,10 @@ mutated_seq=seq[:3]+"A"+seq[4:]
 print(seq)
 print(mutated_seq)
 
-#4.Write a program to slice the sequence in two halves. Print the result. Take the sequence from the user
-DNA_seq = input("Please enter the Sequence:")
-DNA_seq_first= DNA_seq(:len(DNA_seq)/2) 
-print(DNA_seq_first)
+#4.Write a program to slice the sequence in two halves. Print the result. Take the sequence from the user. 
+dna_seq=input("Please enter the Sequence:")
+length=len(dna_seq)
+print(dna_seq[:int(length/2)])
+print(dna_seq[int(length/2):])
 
                         
